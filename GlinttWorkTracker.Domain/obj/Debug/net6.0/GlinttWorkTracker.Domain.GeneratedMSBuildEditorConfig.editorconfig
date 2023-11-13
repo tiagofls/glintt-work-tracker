@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = GlinttWorkTracker.Console
-build_property.ProjectDir = C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Console\GlinttWorkTracker.Console\
+build_property.RootNamespace = GlinttWorkTracker.Domain
+build_property.ProjectDir = C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Domain\
