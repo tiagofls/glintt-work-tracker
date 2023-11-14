@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZxpEgkjWKRtt24bchlsOSMkMn1q5UfeVffaq0bFyh/CH7iBcGWenLOV4Ir/6Qt7dKA2GbGpIfbJuBoGZ8Ps4Dw==",
+  "dgSpecHash": "+/qqdjjHUvfvjXXPawtPVEimNNjDxfKB8r1AyTbDy+4msPjYlD9DWJ8MJ9nNMlNSXi+qDWhZuWh1r7EvdpACHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Console\\GlinttWorkTracker.Console\\GlinttWorkTracker.Console.csproj",
+  "projectFilePath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tiago Santos\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Tiago Santos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

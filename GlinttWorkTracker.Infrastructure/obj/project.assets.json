@@ -575,6 +575,20 @@
             "rid": "win"
           }
         }
+      },
+      "GlinttWorkTracker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GlinttWorkTracker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlinttWorkTracker.Domain.dll": {}
+        }
       }
     }
   },
@@ -1635,11 +1649,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "GlinttWorkTracker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GlinttWorkTracker.Domain/GlinttWorkTracker.Domain.csproj",
+      "msbuildProject": "../GlinttWorkTracker.Domain/GlinttWorkTracker.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "EntityFramework >= 6.4.4",
+      "GlinttWorkTracker.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0"
     ]
   },
@@ -1650,11 +1670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Console\\GlinttWorkTracker.Console\\GlinttWorkTracker.Console.csproj",
-      "projectName": "GlinttWorkTracker.Console",
-      "projectPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Console\\GlinttWorkTracker.Console\\GlinttWorkTracker.Console.csproj",
+      "projectUniqueName": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj",
+      "projectName": "GlinttWorkTracker.Infrastructure",
+      "projectPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Tiago Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Console\\GlinttWorkTracker.Console\\obj\\",
+      "outputPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1674,7 +1694,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj": {
+              "projectPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
