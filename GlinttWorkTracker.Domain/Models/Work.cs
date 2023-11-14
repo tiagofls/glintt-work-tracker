@@ -9,6 +9,7 @@ namespace GlinttWorkTracker.Domain.Models
 {
     public class Work : Entity
     {
+        public string GlinttApp { get; set; }
         public string Description { get; set; }
         public string Epic { get; set; }
         public Issue Issue { get; set; }
@@ -16,9 +17,6 @@ namespace GlinttWorkTracker.Domain.Models
         public List<NuGetUpdates> NuGetUpdates { get; set; }
         public List<DBScripts> DBScripts { get; set; }
         public List<DataBaseChanges> DataBaseChanges { get; set; }
-        public List<APIChanges> APIChanges { get; set; }
-        public List<ATDServicesChanges> ATDServicesChanges { get; set; }
-        public List<SharedCoreChanges> SharedCoreChanges { get; set; }
-        public List<FEChanges> FEChanges { get; set; }
+        public List<CodeChanges> CodeChanges { get; set; }
     }
 }
