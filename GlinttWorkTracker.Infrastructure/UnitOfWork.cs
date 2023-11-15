@@ -1,5 +1,7 @@
 ﻿using GlinttWorkTracker.Domain;
 using GlinttWorkTracker.Domain.Repositories;
+using GlinttWorkTracker.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,7 @@ namespace GlinttWorkTracker.Infrastructure
         DbContextOptions<GlinttWorkTrackerDbContext> _options;
         private GlinttWorkTrackerDbContext _dbContext;
 
-        public IWorkRepository UserRepository
+        public IWorkRepository WorkRepository
             => new WorkRepository(_dbContext);
 
         public UnitOfWork()
