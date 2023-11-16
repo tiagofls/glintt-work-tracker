@@ -46,5 +46,22 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
             return f;
         }
 
+        private Work Create(Work e)
+        {
+            e.Id = 1;
+            _dbContext.Set<Work>().Add(e);
+            _dbContext.SaveChanges();
+
+            return e;
+        }
+
+        private Work Update(Work e)
+        {
+            _dbContext.Set<Work>().Update(e);
+            _dbContext.SaveChanges();
+
+            return e;
+        }
+
     }
 }

@@ -10,8 +10,6 @@ namespace GlinttWorkTracker.Domain.Repositories
 {
     public interface IWorkRepository : IRepository<Work>
     {
-        Work Create (Work work);
-        Work Update (Work work);
-        Work Delete (Work work);
+        Task<Work> UpsertAsync(Work e);
     }
 }

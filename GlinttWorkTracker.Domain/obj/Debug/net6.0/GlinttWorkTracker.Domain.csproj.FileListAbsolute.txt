@@ -1,0 +1,14 @@
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.csproj.AssemblyReference.cache
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.AssemblyInfo.cs
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\bin\Debug\net6.0\GlinttWorkTracker.Domain.deps.json
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\bin\Debug\net6.0\GlinttWorkTracker.Domain.dll
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\bin\Debug\net6.0\GlinttWorkTracker.Domain.pdb
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.dll
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\refint\GlinttWorkTracker.Domain.dll
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.pdb
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\ref\GlinttWorkTracker.Domain.dll
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\bin\Debug\net6.0\GlinttWorkTracker.Domain.runtimeconfig.json
+C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Domain\obj\Debug\net6.0\GlinttWorkTracker.Domain.genruntimeconfig.cache
