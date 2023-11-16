@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GlinttWorkTracker.Domain.Models
 {
-    public class DatabaseData : Entity
+    public class DatabaseData
     {
         public string Database { get; set; }
         public string UserPwd { get; set; }

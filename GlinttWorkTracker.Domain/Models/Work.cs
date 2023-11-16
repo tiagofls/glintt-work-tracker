@@ -12,7 +12,7 @@ namespace GlinttWorkTracker.Domain.Models
         public string GlinttApp { get; set; }
         public string Description { get; set; }
         public string Epic { get; set; }
-        public Issue Issue { get; set; }
+        public int IdIssue { get; set; }
         public DateTime Date { get; set; }
         public List<NuGetUpdates> NuGetUpdates { get; set; }
         public List<DBScripts> DBScripts { get; set; }

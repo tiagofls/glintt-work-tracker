@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj": {}
+    "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj": {
+    "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj",
         "projectName": "GlinttWorkTracker.Domain",
-        "projectPath": "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj",
-        "packagesPath": "C:\\Users\\tiago.f.santos.GLINTT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj",
+        "packagesPath": "C:\\Users\\Tiago Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tiago.f.santos.GLINTT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tiago Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,9 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.glinttlab.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -78,25 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj": {
+    "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj",
         "projectName": "GlinttWorkTracker.Infrastructure",
-        "projectPath": "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\tiago.f.santos.GLINTT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\GlinttWorkTracker.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Tiago Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tiago.f.santos.GLINTT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tiago Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,16 +101,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.glinttlab.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj": {
-                "projectPath": "C:\\Users\\tiago.f.santos.GLINTT\\Desktop\\Outros\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj"
+              "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tiago Santos\\Desktop\\GIT\\glintt-work-tracker\\GlinttWorkTracker.Domain\\GlinttWorkTracker.Domain.csproj"
               }
             }
           }
@@ -160,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

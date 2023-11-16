@@ -22,7 +22,7 @@ namespace GlinttWorkTracker.Infrastructure
         {
             _dbContext = new GlinttWorkTrackerDbContext();
             _dbContext.Database.EnsureCreated();
-            //_dbContext.Database.Migrate();
+            _dbContext.Database.Migrate();
         }
 
         public UnitOfWork(DbContextOptions<GlinttWorkTrackerDbContext> options)
@@ -30,7 +30,7 @@ namespace GlinttWorkTracker.Infrastructure
             _options = options;
             _dbContext = new GlinttWorkTrackerDbContext(options);
             _dbContext.Database.EnsureCreated();
-            //_dbContext.Database.Migrate();
+            _dbContext.Database.Migrate();
 
         }
 

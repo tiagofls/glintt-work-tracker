@@ -17,11 +17,7 @@ namespace GlinttWorkTracker.Console
 
             using (var context = new GlinttWorkTrackerDbContext())
             {
-                // Clear the database
-                context.ClearDatabase();
 
-                // Apply migrations
-                context.Database.Migrate();
             }
 
         }

@@ -9,5 +9,6 @@ namespace GlinttWorkTracker.Domain.SeedWork
     public class Entity
     {
         public int Id { get; set; }
+        public int IdWork { get; set; }
     }
 }

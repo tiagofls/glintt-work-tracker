@@ -15,3 +15,20 @@ C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTrac
 C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\ref\GlinttWorkTracker.Infrastructure.dll
 C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Infrastructure\bin\Debug\net6.0\GlinttWorkTracker.Infrastructure.runtimeconfig.json
 C:\Users\tiago.f.santos.GLINTT\Desktop\Outros\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.genruntimeconfig.cache
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\bin\Debug\net6.0\GlinttWorkTracker.Infrastructure.deps.json
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\bin\Debug\net6.0\GlinttWorkTracker.Infrastructure.runtimeconfig.json
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\bin\Debug\net6.0\GlinttWorkTracker.Infrastructure.dll
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\bin\Debug\net6.0\GlinttWorkTracker.Infrastructure.pdb
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\bin\Debug\net6.0\GlinttWorkTracker.Domain.dll
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\bin\Debug\net6.0\GlinttWorkTracker.Domain.pdb
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.AssemblyInfo.cs
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.csproj.CopyComplete
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.dll
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\refint\GlinttWorkTracker.Infrastructure.dll
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.pdb
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\GlinttWorkTracker.Infrastructure.genruntimeconfig.cache
+C:\Users\Tiago Santos\Desktop\GIT\glintt-work-tracker\GlinttWorkTracker.Infrastructure\obj\Debug\net6.0\ref\GlinttWorkTracker.Infrastructure.dll
