@@ -11,5 +11,6 @@ namespace GlinttWorkTracker.Domain.Repositories
     public interface IWorkRepository : IRepository<Work>
     {
         Task<Work> UpsertAsync(Work e);
+        Task<IEnumerable<Issue>> GetAllIssues();
     }
 }

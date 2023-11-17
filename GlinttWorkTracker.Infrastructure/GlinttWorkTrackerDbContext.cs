@@ -2,6 +2,7 @@
 using GlinttWorkTracker.Domain.SeedWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.Extensions.Logging;
 
 namespace GlinttWorkTracker.Domain
 {
@@ -23,10 +24,13 @@ namespace GlinttWorkTracker.Domain
         {
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            options.UseSqlite("Data Source=glintt-work-tracker.db");
+            optionsBuilder
+                .UseSqlite("Data Source=glintt-work-tracker.db");
         }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -36,6 +40,13 @@ namespace GlinttWorkTracker.Domain
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Type).IsRequired();
             });
+
+            modelBuilder.Entity<Issue>().HasData(
+                new Issue { Id = 1, Type = "Story" },
+                new Issue { Id = 2, Type = "Defect" },
+                new Issue { Id = 3, Type = "Bug" }
+            );
+
 
             modelBuilder.Entity<Work>(entity =>
             {

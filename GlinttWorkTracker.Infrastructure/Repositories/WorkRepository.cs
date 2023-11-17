@@ -17,51 +17,19 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
         {
         }
 
-        public override async Task<Work> UpsertAsync(Work e)
+        public async Task<IEnumerable<Issue>> GetAllIssues()
         {
-            Work? f = null;
-            Work existing = await this.FindByIdAsync(e.Id);
-
-            if (existing == null)
-            {
-                if (e.Id == 0)
-                {
-                    f = this.Create(e);
-                }
-                else
-                {
-                    f = this.Update(e);
-                }
-            }
-            else if (existing.Id == e.Id)
-            {
-                _dbContext.Entry(existing).State = EntityState.Detached;
-                f = this.Update(e);
-            }
-            else
-            {
-                _dbContext.Entry(e).State = EntityState.Detached;
-            }
-
-            return f;
+            return await _dbContext.Set<Issue>().ToListAsync();
         }
 
-        private Work Create(Work e)
+        public Issue GetIssueById(int issueId)
         {
-            e.Id = 1;
-            _dbContext.Set<Work>().Add(e);
-            _dbContext.SaveChanges();
-
-            return e;
+            return _dbContext.Set<Issue>().Find(issueId);
         }
 
-        private Work Update(Work e)
+        public Task<Work> UpsertAsync(Work e)
         {
-            _dbContext.Set<Work>().Update(e);
-            _dbContext.SaveChanges();
-
-            return e;
+            throw new NotImplementedException();
         }
-
     }
 }

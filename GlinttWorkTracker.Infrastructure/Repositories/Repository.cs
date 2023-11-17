@@ -1,4 +1,5 @@
 ﻿using GlinttWorkTracker.Domain;
+using GlinttWorkTracker.Domain.Models;
 using GlinttWorkTracker.Domain.SeedWork;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -39,10 +40,15 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
             T entity = _dbContext.Set<T>().Remove(e).Entity;
             return entity;
         }
-        public abstract Task<T> UpsertAsync(T e);
-        public virtual async Task<T> FindByIdAsync(int id)
+
+        public async Task<IEnumerable<Issue>> GetAllIssues()
         {
-            return await _dbContext.Set<T>().FindAsync(id);
+            return _dbContext.Set<Issue>().ToList();
+        }
+
+        public Issue GetIssueById(int issueId)
+        {
+            return _dbContext.Set<Issue>().Find(issueId);
         }
 
     }
