@@ -47,36 +47,30 @@ namespace GlinttWorkTracker.Domain
                 entity.Property(e => e.Date).IsRequired();
             });
 
-            // Configurações comuns para as tabelas CodeChanges, DataBaseChanges, DBScripts e NuGetUpdates
             Action<EntityTypeBuilder<TEntity>> configureEntities<TEntity>(Action<EntityTypeBuilder<TEntity>> entityConfig) where TEntity : Entity
             {
                 return entityConfig;
             }
 
-            // Usage
 
             modelBuilder.Entity<CodeChanges>(configureEntities<CodeChanges>(entity =>
             {
                 entity.ToTable("CodeChanges");
-                // Add other configurations as needed
             }));
 
             modelBuilder.Entity<DataBaseChanges>(configureEntities<DataBaseChanges>(entity =>
             {
                 entity.ToTable("DataBaseChanges");
-                // Add other configurations as needed
             }));
 
             modelBuilder.Entity<DBScripts>(configureEntities<DBScripts>(entity =>
             {
                 entity.ToTable("DBScripts");
-                // Add other configurations as needed
             }));
 
             modelBuilder.Entity<NuGetUpdates>(configureEntities<NuGetUpdates>(entity =>
             {
                 entity.ToTable("NuGetUpdates");
-                // Add other configurations as needed
             }));
 
 
