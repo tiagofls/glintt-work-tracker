@@ -17,19 +17,18 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
         {
         }
 
-        public async Task<IEnumerable<Issue>> GetAllIssues()
+        public override async Task<IEnumerable<Work>> GetAll()
         {
-            return await _dbContext.Set<Issue>().ToListAsync();
+            return await _dbContext.Set<Work>().ToListAsync();
         }
-
-        public Issue GetIssueById(int issueId)
+        public override async Task<bool> AddWork(Work work)
         {
-            return _dbContext.Set<Issue>().Find(issueId);
-        }
-
-        public Task<Work> UpsertAsync(Work e)
-        {
-            throw new NotImplementedException();
+            if (work.Id == 0)
+            {
+                this.Create(work);
+                return true;
+            }
+            return false;
         }
     }
 }

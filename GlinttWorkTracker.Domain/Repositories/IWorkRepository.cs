@@ -10,7 +10,7 @@ namespace GlinttWorkTracker.Domain.Repositories
 {
     public interface IWorkRepository : IRepository<Work>
     {
-        Task<Work> UpsertAsync(Work e);
-        Task<IEnumerable<Issue>> GetAllIssues();
+        Task<IEnumerable<Work>> GetAll();
+        Task<bool> AddWork(Work work);
     }
 }

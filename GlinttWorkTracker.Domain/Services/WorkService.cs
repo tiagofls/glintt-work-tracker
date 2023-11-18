@@ -15,11 +15,17 @@ namespace GlinttWorkTracker.Domain.Services
         {
             _unitOfWork = unitOfWork;
         }
-        public async Task<Work> UpserteWork(Work work)
+        public async Task<IEnumerable<Work>> GetAll()
         {
-            Work createdWork = await _unitOfWork.WorkRepository.UpsertAsync(work);
+            var issuesList = await _unitOfWork.WorkRepository.GetAll();
             await _unitOfWork.SaveAsync();
-            return createdWork;
+            return issuesList;
+        }
+        public async Task<bool> AddWork(Work work)
+        {
+            var inserted = await _unitOfWork.WorkRepository.AddWork(work);
+            await _unitOfWork.SaveAsync();
+            return inserted;
         }
     }
 }

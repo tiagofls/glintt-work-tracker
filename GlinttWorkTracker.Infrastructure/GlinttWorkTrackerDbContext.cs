@@ -26,8 +26,8 @@ namespace GlinttWorkTracker.Domain
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder
-                .UseSqlite("Data Source=glintt-work-tracker.db");
+            optionsBuilder.UseSqlite("Data Source=glintt-work-tracker.db");
+                    //.LogTo(Console.WriteLine, LogLevel.Information);
         }
 
 
