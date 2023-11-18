@@ -11,8 +11,14 @@ namespace GlinttWorkTracker.Domain.SeedWork
     public interface IRepository<T> where T : Entity
     {
         T Create(T entity);
+        T Update(T entity);
+        T Remove(T entity);
+
         Task<IEnumerable<T>> GetAll();
-        Task<bool> AddWork(T entity);
+        Task<bool> Add(T entity);
+        Task<bool> Update_(T entity);
+        Task<bool> Delete(T entity);
+        Task<T> FindById(string id);
     }
 
 }

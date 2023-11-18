@@ -13,6 +13,12 @@
             await Feature1.RunTest();
             Console.WriteLine("\n------------------------------------\n");
             await Feature2.RunTest();
+            Console.WriteLine("\n------------------------------------\n");
+            await Feature3.RunTest();
+            Console.WriteLine("\n------------------------------------\n");
+            await Feature4.RunTest();
+            Console.WriteLine("\n------------------------------------\n");
+            await Feature5.RunTest();
         }
     }
 }

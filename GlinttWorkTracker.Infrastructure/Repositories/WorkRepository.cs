@@ -21,7 +21,7 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
         {
             return await _dbContext.Set<Work>().ToListAsync();
         }
-        public override async Task<bool> AddWork(Work work)
+        public override async Task<bool> Add(Work work)
         {
             if (work.Id == 0)
             {
@@ -29,6 +29,28 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
                 return true;
             }
             return false;
+        }
+        public override async Task<bool> Update_(Work work)
+        {
+            if (work.Id != 0)
+            {
+                this.Update(work);
+                return true;
+            }
+            return false;
+        }
+        public override async Task<bool> Delete(Work work)
+        {
+            if (work.Id != 0)
+            {
+                this.Remove(work);
+                return true;
+            }
+            return false;
+        }
+        public override async Task<Work> FindById(string id)
+        {
+            return this.GetById(int.Parse(id));
         }
     }
 }

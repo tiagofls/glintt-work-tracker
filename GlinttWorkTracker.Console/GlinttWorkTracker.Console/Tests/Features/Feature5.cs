@@ -9,32 +9,28 @@ using System.Threading.Tasks;
 namespace GlinttWorkTracker.Console.Tests.Features
 {
     using System;
-    public class Feature1
+    public class Feature5
     {
         public static async Task RunTest()
         {
-            Console.WriteLine("Feature1: add a work to database\n\nRunning test now...\n\n");
+            Console.WriteLine("Feature4: finding an existing work by id\n\nRunning test now...\n\n");
             try
             {
                 using (var uow = new UnitOfWork())
                 {
-                    var w = new Work
+                    Work work = await uow.WorkRepository.FindById("8");
+                    if (work != null)
                     {
-                        Id = 0,
-                        GlinttApp = "EPR-MOBILE",
-                        Description = "Adição de um campo novo",
-                        Epic = "GX-198763",
-                        IdIssue = 1,
-                        Date = DateTime.Now
-                    };
-                    bool l = await uow.WorkRepository.Add(w);
-                    if (l)
-                    {
-                        Console.WriteLine("A new work was added to database.");
+                        Console.WriteLine($"\nWork Id: {work.Id}");
+                        Console.WriteLine($"GlinttApp: {work.GlinttApp}");
+                        Console.WriteLine($"Description: {work.Description}");
+                        Console.WriteLine($"Epic: {work.Epic}");
+                        Console.WriteLine($"IdIssue: {work.IdIssue}");
+                        Console.WriteLine($"Date: {work.Date}\n");
                     }
                     else
                     {
-                        Console.WriteLine("The work already exists.");
+                        Console.WriteLine("The work do not exists.");
                     }
                 }
                 Console.WriteLine("\n\nTest done successfully!");

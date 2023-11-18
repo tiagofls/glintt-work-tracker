@@ -9,32 +9,32 @@ using System.Threading.Tasks;
 namespace GlinttWorkTracker.Console.Tests.Features
 {
     using System;
-    public class Feature1
+    public class Feature4
     {
         public static async Task RunTest()
         {
-            Console.WriteLine("Feature1: add a work to database\n\nRunning test now...\n\n");
+            Console.WriteLine("Feature4: deleting an existing work\n\nRunning test now...\n\n");
             try
             {
                 using (var uow = new UnitOfWork())
                 {
                     var w = new Work
                     {
-                        Id = 0,
+                        Id = 7,
                         GlinttApp = "EPR-MOBILE",
-                        Description = "Adição de um campo novo",
+                        Description = "Adição de um campo novo, no ecrã de sinistros",
                         Epic = "GX-198763",
                         IdIssue = 1,
                         Date = DateTime.Now
                     };
-                    bool l = await uow.WorkRepository.Add(w);
+                    bool l = await uow.WorkRepository.Delete(w);
                     if (l)
                     {
-                        Console.WriteLine("A new work was added to database.");
+                        Console.WriteLine("Work has been deleted successfully.");
                     }
                     else
                     {
-                        Console.WriteLine("The work already exists.");
+                        Console.WriteLine("The work do not exists.");
                     }
                 }
                 Console.WriteLine("\n\nTest done successfully!");

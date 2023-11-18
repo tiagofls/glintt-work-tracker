@@ -14,6 +14,11 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
     {
 
         protected readonly GlinttWorkTrackerDbContext _dbContext;
+        
+        public Repository(GlinttWorkTrackerDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         public T Create(T e)
         {
@@ -22,12 +27,29 @@ namespace GlinttWorkTracker.Infrastructure.Repositories
             return entity;
         }
 
-        public Repository(GlinttWorkTrackerDbContext dbContext)
+        public T Update(T e)
         {
-            _dbContext = dbContext;
+            T entity = _dbContext.Set<T>().Update(e).Entity;
+            _dbContext.SaveChanges();
+            return entity;
         }
+        public T Remove(T e)
+        {
+            T entity = _dbContext.Set<T>().Remove(e).Entity;
+            _dbContext.SaveChanges();
+            return entity;
+        }
+        public T GetById(int id)
+        {
+            T entity = _dbContext.Set<T>().Find(id);
+            _dbContext.SaveChanges();
+            return entity;
+        }
+
         public abstract Task<IEnumerable<T>> GetAll();
-        public abstract Task<bool> AddWork(T entity);
-        
+        public abstract Task<bool> Add(T entity);
+        public abstract Task<bool> Update_(T entity);
+        public abstract Task<bool> Delete(T entity);
+        public abstract Task<T> FindById(string id);
     }
 }
